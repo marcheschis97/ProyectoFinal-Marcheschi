@@ -189,7 +189,7 @@ function calcularPromedio(datos) {
 
 async function mostrarTalleTorsoM(promedio) {
     try {
-        const response = await fetch('/medidasTalles.json');
+        const response = await fetch('https://64ee9ac8219b3e2873c358dd.mockapi.io/Medidas');
         const data = await response.json();
 
         const talleData = data.find(item => item.torsoM);
@@ -221,7 +221,7 @@ async function mostrarTalleTorsoM(promedio) {
 
 async function mostrarTallePiernasM(promedio) {
     try {
-        const response = await fetch('/medidasTalles.json');
+        const response = await fetch('https://64ee9ac8219b3e2873c358dd.mockapi.io/Medidas');
         const data = await response.json();
 
         const talleData = data.find(item => item.piernasM);
@@ -253,7 +253,7 @@ async function mostrarTallePiernasM(promedio) {
 
 async function mostrarTalleTorsoF(promedio) {
     try {
-        const response = await fetch('/medidasTalles.json');
+        const response = await fetch('https://64ee9ac8219b3e2873c358dd.mockapi.io/Medidas');
         const data = await response.json();
 
         const talleData = data.find(item => item.torsoF);
@@ -285,7 +285,7 @@ async function mostrarTalleTorsoF(promedio) {
 
 async function mostrarTallePiernasF(promedio) {
     try {
-        const response = await fetch('/medidasTalles.json');
+        const response = await fetch('https://64ee9ac8219b3e2873c358dd.mockapi.io/Medidas');
         const data = await response.json();
 
         const talleData = data.find(item => item.piernasF);
@@ -317,7 +317,7 @@ async function mostrarTallePiernasF(promedio) {
 
 async function mostrarTalleCalzado(medidaPie) {
     try {
-        const response = await fetch('/medidasTalles.json');
+        const response = await fetch('https://64ee9ac8219b3e2873c358dd.mockapi.io/Medidas');
         const data = await response.json();
 
         const talleData = data.find(item => item.calzado);
