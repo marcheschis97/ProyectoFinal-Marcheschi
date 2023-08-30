@@ -1,0 +1,30 @@
+.container-calzado {
+    display: flex;
+    /*justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+.footer {
+    background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+}
+
+.custom-width-input {
+    width: auto !important;
+}
+
+@media only screen and (max-device-width: 576px) {
+    .custom-width-input {
+        width: 10rem!important;
+    }
+}
+
+@media only screen and (max-device-width: 370px) {
+    .custom-width-input {
+        width: 7rem!important;
+    }
+}
